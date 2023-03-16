@@ -1,5 +1,9 @@
 #include <stdio.h>
-
+/**
+ * main -Entry point
+ *
+ * Retun: Always 0 (Sucess)
+ * /
 int main(void)
 {
     printf("Size of a char: %ld byte(s)\n", sizeof(char));
