@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main -Entry point
+ * main - Entry point
  *
  * Retun: Always 0 (Sucess)
  * /
