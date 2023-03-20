@@ -15,7 +15,7 @@ int main(void)
 		while (j <= '9')
 		{
 			/*The two digits must be different*/
-			if (!(i > j) || i == j)
+			if (i < j)
 			{
 				putchar(i);
 				putchar(j);
@@ -26,8 +26,9 @@ int main(void)
 				}
 				else
 				{
-					/* Numbers must be separated by ,,
-					 * followed by a space */
+					/* Numbers must be separated by ","
+					 * followed by a space
+					 **/
 					putchar(',');
 					putchar(' ');
 				}
