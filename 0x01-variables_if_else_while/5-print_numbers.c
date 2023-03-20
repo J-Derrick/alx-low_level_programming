@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <ctype.h>
+#include <stdlib.h>
 /* betty style doc for function main goes there */
 /**
  * main - Entry point
@@ -14,9 +15,9 @@ int main(void)
 
 	while (num < 10)
 	{
-		putchar("%d", num);
+		printf("%d", num);
 		num += 1;
 	}
-	putchar ('\n');
+	printf('\n');
 	return (0);
 }
