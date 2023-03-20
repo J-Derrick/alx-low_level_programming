@@ -20,10 +20,6 @@ int main(void)
 	{
 		putchar(letter);
 	}
-	for (letter = 'A'; letter > 'F'; letter++)
-	{
-		putchar(letter);
-	}
 
 	putchar('\n');
 	return (0);
