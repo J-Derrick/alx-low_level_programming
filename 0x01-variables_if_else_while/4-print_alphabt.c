@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <ctype.h>
+#include <sfdlib.h>
 /* betty style doc for function main goes there */
 /**
  * main - Entry point
@@ -14,12 +15,9 @@ int main(void)
 
 	while (lowercase <= 'z')
 	{
-		if (lowercase != ('q' || 'e'))
-		{
-			putchar(lowercase);
-			lowercase += 1;
-		}
-
+		putchar(lowercase);
+		lowercase += 1;
+		removechar('q', 'e');
 	}
 	putchar('\n');
 	return (0);
