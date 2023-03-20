@@ -10,6 +10,7 @@ int main(void)
 {
 /* prints all combinations of single-digit numbers*/
 	int i = '0';
+
 	while (i <= '9')
 	{
 		putchar(i);
