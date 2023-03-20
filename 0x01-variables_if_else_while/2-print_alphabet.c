@@ -6,6 +6,7 @@
  *
  * Return: Always 0 (sucess)
  */
+
 int main(void)
 {
 /* we use the ASCII table where a=97 and z=122 */
@@ -16,6 +17,6 @@ int main(void)
 		putchar(lowercase);
 		lowercase += 1;
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
