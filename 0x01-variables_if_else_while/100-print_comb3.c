@@ -19,16 +19,13 @@ int main(void)
 			{
 				putchar(i);
 				putchar(j);
-				/* The two digits must be different*/
 				if (i == '8' && j == '9')
 				{
 					putchar('\n');
 				}
 				else
 				{
-					/* Numbers must be separated by ","
-					 * followed by a space
-					 **/
+					/* numbers must be separated by "," followed by a space*/
 					putchar(',');
 					putchar(' ');
 				}
