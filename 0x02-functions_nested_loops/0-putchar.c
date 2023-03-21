@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include "main.h"
+f#include "main.h"
 /* betty style doc for function main goes there */
 /**
  * main - Entry point
@@ -8,14 +7,13 @@
  */
 int main(void)
 {
-	function putchar
+	char c[8] = "_putchar';
+	unsigned int i;
+
+	for (i=0; i < sizeof(c); i++)
 	{
-		char c[8] = "_putchar';
-
-		unsigned int i;
-
-		for (i=0; i < sizeof(c); i++)
-			_putchar(c(i);
+		_putchar(c(i));
 	}
-printf('\n');
+_putchar('\n');
 return (0);
+}
