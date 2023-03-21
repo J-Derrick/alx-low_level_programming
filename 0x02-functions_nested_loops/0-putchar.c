@@ -8,13 +8,14 @@
  */
 int main(void)
 {
-        function putchar
-        {
+	function putchar
+	{
 		char c[8] = "_putchar';
+
 		unsigned int i;
 
 		for (i=0; i < sizeof(c); i++)
 			_putchar(c(i);
-        }
-printf ('\n');
+	}
+printf('\n');
 return (0);
