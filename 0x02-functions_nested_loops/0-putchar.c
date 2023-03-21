@@ -8,9 +8,13 @@
  */
 int main(void)
 {
-        function _putchar
+        function putchar
         {
-                printf("_putchar");
+		char c[8] = "_putchar';
+		unsigned int i;
+
+		for (i=0; i < sizeof(c); i++)
+			_putchar(c(i);
         }
 printf ('\n');
 return (0);
