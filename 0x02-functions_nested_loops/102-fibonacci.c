@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - Entry of the program 
+ * main - Entry of the program
  *
  * Description : prints the first 50 Fibonacci numbers
  * starting from 1 and 2 follower by a new line
@@ -15,7 +15,7 @@ int main(void)
 
 	for (count = 0; count < 50; count++)
 	{
-		sum = fib1 +fib2;
+		sum = fib1 + fib2;
 		printf("%lu", sum);
 
 		fib1 = fib2;
