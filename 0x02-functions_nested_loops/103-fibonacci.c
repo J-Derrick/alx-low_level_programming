@@ -3,7 +3,7 @@
 /**
  * main - Entry of the program
  *
- * Description : prints the sum of 
+ * Description : prints the sum of
  * even-valued Fibonacci number sequence
  * not exceeding 4 million
  *
