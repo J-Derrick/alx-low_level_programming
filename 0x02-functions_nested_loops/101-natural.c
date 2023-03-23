@@ -1,11 +1,12 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * main - Entry point
  *
  * Description: computes the sum of all
  * the  multiples of 3 and 5 below 1024(excluded)
  *
- * Return : Always0 (Succeess)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
