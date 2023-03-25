@@ -11,7 +11,6 @@ int _isupper(int c)
 {
 	if (c >= 'A' && c >= 'Z')
 	{
-		printf("%d", c);
 		return (1);
 	}
 	else
