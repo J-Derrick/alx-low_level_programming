@@ -3,7 +3,7 @@
 /**
  * puts2 - prints every other character of a string,
  * starting with the first character, followed by a new line
- * @s: input string
+ * @str: input string
  * Return: print
  */
 void puts2(char *str)
