@@ -5,6 +5,7 @@
  * @dest: copy to
  * @src: copy from
  * Return: string
+ * Return: (0) Success
  */
 char *_strcpy(char *dest, char *src)
 {
@@ -21,4 +22,5 @@ char *_strcpy(char *dest, char *src)
 	}
 	dest[I] = '\0';
 	return (dest);
+	return (0);
 }
