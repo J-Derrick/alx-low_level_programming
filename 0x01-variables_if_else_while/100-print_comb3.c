@@ -1,39 +1,29 @@
 #include <stdio.h>
-/* betty style doc for function main goes there */
+
 /**
- * main - function used to prinnt a combination of two numbers
- *
- * Return: Always 0 (sucess)
+ * main - prints all possible different combinations of two digits
+ * Return: ALways 0 (Success)
  */
 int main(void)
 {
-	int i = '0';
-	int j = '0';
+	int n, m;
 
-	while (i <= '9')
+	for (n = 48; n <= 56; n++)
 	{
-		while (j <= '9')
+		for (m = 49; m <= 57; m++)
 		{
-			/*The two digits must be different*/
-			if (i < j)
+			if (m > n)
 			{
-				putchar(i);
-				putchar(j);
-				if (i == '8' && j == '9')
+				putchar(n);
+				putchar(m);
+				if (n != 56 || m != 57)
 				{
-					putchar('\n');
-				}
-				else
-				{
-					/* numbers must be separated by "," followed by a space*/
 					putchar(',');
 					putchar(' ');
 				}
 			}
-			j++;
 		}
-		j = '0';
-		i++;
 	}
-return (0);
+	putchar('\n');
+	return (0);
 }
